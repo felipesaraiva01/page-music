@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(9, 40, 70);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+        background-image: url(https://img.freepik.com/vetores-gratis/fundo-colorido-da-onda-do-equalizador_52683-33072.jpg);
+        background-size: cover;
+        background-position: center;
+      
+      
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: rgb(136, 53, 20);
+    padding: 20px;
+    text-align: center;
+    font-size: 110%;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 10px;
+
+  }
+  
+  nav a {
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  nav a:hover {
+    color: red;
+    transform: scale(1.1);
+  }
+  
+  
+  section {
+    margin: 20px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+
+  }
+  
+  section ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+ 
+  
+  section li {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
+
+  section img {
+    width: 100%;
+
+  }
+  
+  
+  
+    img {
+        object-fit: cover;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+
+      }
+      
+  section button {
+    background-color: #0d516b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom:0;
+    width: 100%;
+  }
+  .pop {
+    display: flex;
+    text-align: center;
+  position: relative;
+  justify-content: center;
+  }
+  .clave-de-sol {
+   
+  position: absolute;
+  top: 10;
+  right: 0;
+  z-index: 1;
+  width: 80px;
+  height: auto;
+ 
+
+  }
+  button {
+    background-color: blue;
+    transition: all 0.3s ease-in-out;
+  }
+  button:hover {
+    background-color: red;
+    transform: scale(1.1);
+  }
+  #cart-icon {
+    position: relative;
+    top: -60px;
+    right: 0px;
+    left: 1280px;
+   
+  }
+  #cart-icon img {
+    width: 4%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+ #cart-icon img:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+ }
+  
+  
+  
